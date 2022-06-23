@@ -58,11 +58,11 @@ class AllCommand extends Command
             return;
         }
 
-        $strLen = collect($dottedTranslations)->map(function ($value) {
-            return strlen($value);
-        })->sum() * count($targetLanguages);
+        // $strLen = collect($dottedTranslations)->map(function ($value) {
+        //     return strlen($value);
+        // })->sum() * count($targetLanguages);
 
-        $this->line($strLen.' characters will be translated');
+        // $this->line($strLen.' characters will be translated');
 
         if (! $this->confirm('Continue?', true)) {
             return;
