@@ -21,7 +21,7 @@
         "illuminate/support": "^5.6||^6.6||^7.0||^8.0",
         "scn/deepl-api-connector": "^2",
         "stichoza/google-translate-php": "^4.0",
-        "themsaid/laravel-langman": "dev-issues/107/php8-support"
+        "themsaid/laravel-langman": "dev-master"
     },
     "require-dev": {
         "orchestra/testbench": "^3.6||^4.0||^5.0",
@@ -60,7 +60,7 @@
     [
         {
             "type": "vcs",
-            "url": "https://github.com/fh32000/laravel-langman"
+            "url": "https://github.com/AbidKhairyAK/laravel-langman"
         }
     ]
 }
